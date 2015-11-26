@@ -1,0 +1,100 @@
+body{
+    color: #263238;
+    font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+    margin-top: 0px;
+
+    position: relative;
+
+}
+.menu{
+    width:100%;/*横幅一杯に表示*/
+    height: 50px;
+    padding: 10;
+    position:fixed; /*絶対位置で指定*/ 
+    top:0; /*上からの距離*/
+    left:0; /*左側からの距離*/ 
+    index:10000; /*一番前に表示(数字が多いほど前)*/
+    
+    background-color: #4DB6AC;
+    opacity: 50%;
+
+
+
+}
+.menu h1{
+    margin-left: 20px;
+    font-size: 20pt;
+    color: #FFF;
+    float: left;
+    line-height: 10pt;
+
+}
+.menu ul{
+    margin-top:0px; 
+    position:relative;
+    margin-left: 30px;
+    text-align: center;
+    
+
+}
+
+.menu li{
+    display: inline-block;
+    width: 15%;
+    font-size: 24pt;
+    color: #FFF;
+
+}
+
+.works{
+    width: 
+
+}
+
+
+.works h3{
+    font-size: 24pt;
+    color: #546E7A;
+    font-family: 
+}
+
+
+
+.works h4{
+    font-size: 16pt;
+    color: #546E7A;
+
+    
+}
+
+.works  ul{
+    list-style-type:none;
+
+
+}
+.works p{
+    font-size: 12pt;
+    width: 70%;
+    color: #546E7A;
+
+
+}
+
+.works{
+    
+    width: 70%;
+    margin: auto;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 12pt;
+    color: #FFF;
+
+}
+
+a{
+    color:  #4DB6AC;
+
+}
+
