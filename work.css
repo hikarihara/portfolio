@@ -47,21 +47,23 @@ body{
 }
 
 .works{
-    width: 
+    width: 70%;
 
 }
 
 
 .works h3{
     font-size: 24pt;
+
     color: #546E7A;
-    font-family: 
+    width: 70%;
 }
 
 
 
 .works h4{
     font-size: 16pt;
+    width: %;
     color: #546E7A;
 
     
@@ -69,12 +71,13 @@ body{
 
 .works  ul{
     list-style-type:none;
+    
 
 
 }
 .works p{
     font-size: 12pt;
-    width: 70%;
+    width: 95%;
     color: #546E7A;
 
 
