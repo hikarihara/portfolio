@@ -53,8 +53,8 @@ p{
     padding-right: 2rem;
     padding-bottom: 4rem;
     padding-left: 2rem;
-    background-image: -webkit-linear-gradient(#00897B, #00897B);
-    background-image: linear-gradient(#00897B, #00897B);
+    background-image: -webkit-linear-gradient(#37474F, #607D8B);
+    background-image: linear-gradient(#37474F, #607D8B);
     background-size: 2px 100%;
     background-position: 50% 1rem;
     background-repeat: no-repeat;
@@ -87,12 +87,12 @@ p{
     top: 0.3rem;
     width: 1rem;
     height: 1rem;
-    border: 2px solid #00897B;
+    border: 2px solid #37474F;
     border-radius: 50%;
     background-color: #FFFFFF;
 }
 .timeline .item:hover:before {
-    background-color: #00897B;
+    background-color: #FFEB3B;
 }
 
 .timeline .item:first-child {

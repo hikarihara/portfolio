@@ -2,7 +2,7 @@ body{
     color: #263238;
     font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
     margin-top: 0px;
-    font-size: 10px;
+    font-size: 10%;
 
     position: relative;
 
@@ -14,7 +14,7 @@ body{
 
     index:10; /*一番前に表示(数字が多いほど前)*/
     
-    background-color: #4DB6AC;
+    background-color: #37474F;
     opacity: 50%;
 
 
@@ -32,10 +32,10 @@ body{
 }
 */
 .menu ul{
-    margin-top:0px; 
-    margin: 1.5% 0 auto;
+    
+    margin: auto;
     position:relative;
-    margin-left: 30px;
+
     text-align: center;
     
 
@@ -43,24 +43,26 @@ body{
 
 .menu li{
     display: inline-block;
-    width: 16.6%;
+    width: 15%;
     font-size: 1.5rem;
     color: #FFF;
+}
+.menu li a:hover{
     
+    color: #FFEB3B;
 
 }
 
 .works{
-    width: 70%;
 
+    width: 50%;
+    margin: auto;
 }
-
 
 .works h3{
     font-size: 1.6rem;
 
     color: #546E7A;
-    width: 70%;
     margin-top:  30px;
 }
 
@@ -95,11 +97,6 @@ body{
 
 }
 
-.works{
-    
-    width: 70%;
-    margin: auto;
-}
 
 .menu a{
     text-decoration: none;
