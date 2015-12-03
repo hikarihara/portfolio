@@ -2,18 +2,18 @@ body{
     color: #263238;
     font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
     margin-top: 0px;
+    font-size: 10px;
 
     position: relative;
 
 }
 .menu{
     width:100%;/*横幅一杯に表示*/
-    height: 50px;
+    height: 40px;
     padding: 10;
     position:fixed; /*絶対位置で指定*/ 
-    top:0; /*上からの距離*/
-    left:0; /*左側からの距離*/ 
-    index:10000; /*一番前に表示(数字が多いほど前)*/
+
+    index:10; /*一番前に表示(数字が多いほど前)*/
     
     background-color: #4DB6AC;
     opacity: 50%;
@@ -23,14 +23,16 @@ body{
 }
 .menu h1{
     margin-left: 20px;
-    font-size: 20pt;
+    margin: 1.5% 5% auto;
+    font-size: 1.8rem;
     color: #FFF;
     float: left;
-    line-height: 10pt;
+
 
 }
 .menu ul{
     margin-top:0px; 
+    margin: 1.5% 5% auto;
     position:relative;
     margin-left: 30px;
     text-align: center;
@@ -40,9 +42,10 @@ body{
 
 .menu li{
     display: inline-block;
-    width: 15%;
-    font-size: 24pt;
+    width: 16.6%;
+    font-size: 1.5rem;
     color: #FFF;
+    
 
 }
 
@@ -53,32 +56,40 @@ body{
 
 
 .works h3{
-    font-size: 24pt;
+    font-size: 1.6rem;
 
     color: #546E7A;
     width: 70%;
+    margin-top:  30px;
 }
 
 
 
 .works h4{
-    font-size: 16pt;
-    width: %;
+    font-size: 1.2rem;
+    margin-bottom:  10px;
+
     color: #546E7A;
 
     
 }
 
 .works  ul{
-    list-style-type:none;
     
-
+    
+    list-style-type:none;
 
 }
+.works  li{
+    margin: 40px 0 auto;
+
+}
+
 .works p{
-    font-size: 12pt;
-    width: 95%;
+    font-size: 0.9rem;
+    width: 100%;
     color: #546E7A;
+    margin-top:  10px;
 
 
 }
@@ -91,7 +102,7 @@ body{
 
 .menu a{
     text-decoration: none;
-    font-size: 12pt;
+    font-size: 1.0rem;
     color: #FFF;
 
 }
