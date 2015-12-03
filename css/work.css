@@ -9,8 +9,7 @@ body{
 }
 .menu{
     width:100%;/*横幅一杯に表示*/
-    height: 40px;
-    padding: 10;
+    height: 30px;
     position:fixed; /*絶対位置で指定*/ 
 
     index:10; /*一番前に表示(数字が多いほど前)*/
@@ -21,6 +20,7 @@ body{
 
 
 }
+/*
 .menu h1{
     margin-left: 20px;
     margin: 1.5% 5% auto;
@@ -30,9 +30,10 @@ body{
 
 
 }
+*/
 .menu ul{
     margin-top:0px; 
-    margin: 1.5% 5% auto;
+    margin: 1.5% 0 auto;
     position:relative;
     margin-left: 30px;
     text-align: center;
