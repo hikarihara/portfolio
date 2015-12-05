@@ -121,3 +121,8 @@ a{
 
 }
 
+.fa-white:before
+{
+    color: #FFF ;
+}
+

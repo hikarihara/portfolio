@@ -1,4 +1,4 @@
-body{
+html,body{
     background-color: ;
     font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
     
@@ -6,20 +6,34 @@ body{
     margin: 0 auto;
     font-size: 10px;
     color: #37474F;
+    height: 100%;
+    
+    
 }
 
-h1{
+.main{
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+.main h1{
 /*    color: #4DB6AC;*/
-    top: 20px;
+    margin-top: 3%;
     font-size: 2.5rem;
     text-align: center;
 
 }
-h2{
-    color: ;
+.main h2{
     text-align: center;
     font-size: 1.6rem;
-    margin-top: 30px;
+    margin-top: 1%;
+    
 
     
 
@@ -37,21 +51,145 @@ h2{
 
 .btn{
     text-align:center;
+    height: 80%;
+    
     
     margin:0 auto 0 auto;
 }
 
 .btn img{
-    width: 100px;
+    height: 90%;
     margin: 30px;
 }  
 
+.discription{
+    font-size: 1.0rem;
+    
+    marigin-bottom: 20%;
+    margin-right: 5%;
+    text-align: right;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: #37474F;
+    
+    
+}
+
+/* 点滅 */
+.blinking{
+   
+    -webkit-animation:blink 0.8s ease-in-out infinite alternate;
+    -moz-animation:blink 0.8s ease-in-out infinite alternate;
+    animation:blink 1.0s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.blinking i{
+    position: absolute;
+    
+    bottom: 3%;
+    left: 50%;
+
+
+}
+
 .sns{
     text-align: center;
+}
 
-    top:0px;
-    right: 0px;
 
+.about{
+    height: 100%;
+    background-color: #37474F;
+    color: white;
+    padding: 3% 10%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.about h2{
+    font-size: 1.8rem;
+    top: 10%;
+    text-align: center;
+
+}
+
+
+
+
+.profile  h1{
+    
+    font-family: ;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.profile h2{
+    margin-top: 3%;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.profile h3{
+    margin: 2% 0;
+
+
+}
+
+.profile ul li{
+    line-height: 150%;
+    list-style-type: none;
+    font-size: 0.8rem;
+    
+
+}
+
+.profile p{
+    margin-top: 3%;
+    font-size: 0.8rem;
+    line-height: 130%;
+
+}
+
+.site h1{
+    
+    font-size: 1.6rem;
+    text-align: left;
+    margin-top: 5%;
+
+}
+
+.site p{
+    margin-top: 3%;
+    font-size: 0.8rem;
+    line-height: 130%;
+
+}
+
+.about a{
+    color: #fff;
+
+}
+
+.about strong{
+    font-size: 1.4rem;
 
 }
 
@@ -79,6 +217,12 @@ h2{
 {
     color: #37474F ;
 }
+
+.fa-white:before
+{
+    color: #FFF ;
+}
+
 .sns a{
     margin: 1px;
 
