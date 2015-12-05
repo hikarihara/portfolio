@@ -79,6 +79,14 @@ body{
     
 }
 
+.works h5{
+    margin-top: 10px;
+    font-size: 1.0rem;
+        
+    color: #546E7A;
+
+}
+
 .works  ul{
     
     
@@ -91,7 +99,7 @@ body{
 }
 
 .works p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     width: 100%;
     color: #546E7A;
     margin-top:  10px;
