@@ -56,7 +56,9 @@ i{
     margin-bottom: 50px;
 
 }
-
+.timeline a{
+    color: #37474F;
+}
 
 .timeline {
     width: 80%;
