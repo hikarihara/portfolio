@@ -126,3 +126,13 @@ a{
     color: #FFF ;
 }
 
+@media screen and (max-width: 960px){
+    
+    .works{
+
+        width: 80%;
+        margin: auto;
+    }
+    
+}
+
