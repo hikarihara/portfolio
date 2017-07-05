@@ -1,135 +1,150 @@
-body{
+body {
     color: #263238;
-    font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+    font-family: Avenir, "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     margin-top: 0px;
     font-size: 10%;
     position: relative;
-    
-
-}
-.menu{
-    width:100%;
-    height: 30px;
-    position:fixed;
-
-    z-index:10;
-    
-    background-color: #37474F;
-    opacity: 50%;
-
-
-
-}
-/*
-.menu h1{
-    margin-left: 20px;
-    margin: 1.5% 5% auto;
-    font-size: 1.8rem;
-    color: #FFF;
-    float: left;
-
-
-}
-*/
-.menu ul{
-    
-    margin: auto;
-    position:relative;
-
-    text-align: center;
-    
-
 }
 
-.menu li{
-    display: inline-block;
-    width: 15%;
-    font-size: 1.5rem;
-    color: #FFF;
-}
-.menu li a:hover{
-    
-    color: #FFEB3B;
-
-}
-
-.works{
-
+.works {
+    padding-top: 100px;
     width: 50%;
     margin: auto;
 }
 
-.works h3{
-    font-size: 1.6rem;
-
+.works h3 {
+    font-size: 1.4rem;
     color: #546E7A;
-    margin-top:  30px;
+    opacity: 0.5;
 }
 
-
-
-.works h4{
+.works h4 {
     font-size: 1.2rem;
-    margin-bottom:  10px;
-
+    margin-bottom: 10px;
     color: #546E7A;
-
-    
 }
 
-.works h5{
+.works h5 {
     margin-top: 10px;
     font-size: 1.0rem;
-        
     color: #546E7A;
-
 }
 
-.works  ul{
+.works ul {
     margin-bottom: 80px;
-    list-style-type:none;
-
+    list-style-type: none;
 }
-.works  li{
+
+.works li {
     margin: 40px 0 auto;
-
 }
 
-.works p{
+.works p {
     font-size: 0.8rem;
     width: 100%;
     color: #546E7A;
-    margin-top:  10px;
+    margin-top: 10px;
     line-height: 150%;
-
-
 }
 
-
-.menu a{
+.menu a {
     text-decoration: none;
     font-size: 1.0rem;
     color: #FFF;
-
 }
 
-a{
-    color:  #4DB6AC;
-
+a {
+    color: #4DB6AC;
 }
 
-.fa-white:before
-{
-    color: #FFF ;
+.fa-white:before {
+    color: #FFF;
 }
 
-@media screen and (max-width: 960px){
-    
-    .works{
-
+@media screen and (max-width: 960px) {
+    .works {
         width: 80%;
         margin: auto;
     }
-    
 }
 
+.header-basic-light {
+    width: 100%;
+    position: fixed;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
+    height: 55px;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.header-basic-light .header-limiter {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* Logo */
+
+.header-basic-light .header-limiter h1 {
+    float: left;
+    line-height: 20px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+
+/* The header links */
+
+.header-basic-light .header-limiter a {
+    text-decoration: none;
+    color: #546E7A;
+}
+
+.header-basic-light .header-limiter nav {
+    font: 15px;
+    float: right;
+}
+
+.header-basic-light .header-limiter nav a {
+    display: inline-block;
+    padding: 0 5px;
+    opacity: 0.9;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.header-basic-light .header-limiter nav a.selected {
+    background-color: #86a3d5;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 6px 10px;
+}
+
+
+/* Making the header responsive. */
+
+@media all and (max-width: 600px) {
+    .header-basic-light {
+        padding: 20px 0;
+        height: 80px;
+    }
+    .header-basic-light .header-limiter h1 {
+        float: none;
+        margin: -8px 0 10px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 24px;
+        line-height: 1;
+    }
+    .header-basic-light .header-limiter nav {
+        line-height: 1;
+        float: none;
+    }
+    .header-basic-light .header-limiter nav a {
+        font-size: 13px;
+        width: 13%;
+    }
+}
