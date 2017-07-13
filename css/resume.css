@@ -87,6 +87,7 @@ i{
     float: left;
     clear: both;
     margin-top: -1rem;
+
 }
 @media (max-width: 40rem) {
     .timeline .item {
@@ -277,6 +278,6 @@ body {
 }
 
 .timeline .item:nth-child(even) h2 {
-    text-align:right;
+    text-align:;
     @include tablet {text-align:left;}
 }
